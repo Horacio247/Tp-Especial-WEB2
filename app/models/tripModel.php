@@ -13,7 +13,6 @@ class tripModel {
    
         $query = $this->db->prepare("SELECT * FROM viajes");
         $query->execute();
-
        
         $viajes = $query->fetchAll(PDO::FETCH_OBJ); 
         

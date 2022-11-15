@@ -32,7 +32,7 @@ class tripController {
             $this->model->editViajeById($origen, $destino, $vendedor, $id);
 
             header("Location: " . BASE_URL); 
-        
+            
         } else {
 
            echo "no se pudo actualizar su consulta";

@@ -12,6 +12,7 @@ class tripView
     }
 
 function showViajes($viajes){
+    
     $this->smarty->assign('viajes',$viajes);
 
     $this->smarty->display('listaViaje.tpl');
